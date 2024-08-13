@@ -7,7 +7,7 @@ import static java.lang.Integer.parseInt;
 
 public class LargestPossibleNumber {
     public static void main(String[] args) {
-        Integer[] nums = {2, 99, 22, 34, 10};
+        Integer[] nums = {92, 99, 22, 2, 10};
 
         System.out.println(largestNum(nums));
     }

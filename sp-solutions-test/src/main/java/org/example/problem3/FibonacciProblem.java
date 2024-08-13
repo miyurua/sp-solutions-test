@@ -6,11 +6,11 @@ import java.util.List;
 public class FibonacciProblem {
     public static void main(String[] args) {
         //num1 -> 0, num2 ->1
-        //next -> [0]+[1] then [[1][2]]
+        //next -> [0]+[1] then [[1]+[2]]
         //method - should take in the number of iterations needed
         // i -> [0, 1]
         // i -> [0, 1, 1]
-        System.out.println(fibonacciList(3));
+        System.out.println(fibonacciList(9));
 
     }
 
